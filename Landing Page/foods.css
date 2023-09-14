@@ -1,0 +1,45 @@
+.item{
+    margin: 10px;
+    text-align: center;
+    color: brown;
+    background-color: wheat;
+   border-radius: 50px;
+   font-size: 60px;
+}
+.card{
+    transition: 10ms;
+    border: 20px black;
+    padding: 5px;
+    margin:1opx;
+    border-radius: 50px;
+    width: 600px;
+    
+
+}
+.card :hover{
+    transform: rotate(1deg);
+    width: 300px;
+}
+.card p{
+    background-color: rgb(0, 255, 30);
+    color: blue;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card_img{
+    width:300px;
+    height: 300px;
+    border-radius: 50px;
+    
+}
+.desc{
+    font-size: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
